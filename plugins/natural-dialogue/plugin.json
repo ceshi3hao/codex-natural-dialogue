@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "natural-dialogue",
+  "version": "1.0.0",
+  "description": "Context-aware Chinese conversation that preserves evidence, user boundaries, and task completion.",
+  "keywords": [
+    "chinese",
+    "conversation",
+    "context",
+    "codex"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "自然接话",
+        "shortDescription": "理解聊天语境与转发，减少机械检讨和套话，保留办事能力。",
+        "longDescription": "中文交流技能：辨认当前会话和转发材料，持续跟进话题，按语境选择表达，维护有来源的偏好。",
+        "category": "Productivity",
+        "defaultPrompt": [
+          "用自然接话处理这段对话，保留事实依据，不用固定短答或追问。"
+        ]
+      }
+    }
+  }
+}

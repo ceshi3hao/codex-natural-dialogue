@@ -1,0 +1,20 @@
+{
+  "name": "natural-dialogue-plugins",
+  "interface": {
+    "displayName": "Natural Dialogue"
+  },
+  "plugins": [
+    {
+      "name": "natural-dialogue",
+      "source": {
+        "source": "local",
+        "path": "./plugins/natural-dialogue"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
